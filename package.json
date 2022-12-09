@@ -1,0 +1,19 @@
+{
+  "name": "middle.messenger.praktikum.yandex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel index.hbs",
+    "build": "parcel build index.hbs"
+  },
+  "keywords": [],
+  "author": "riatitova",
+  "license": "ISC",
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  }
+}

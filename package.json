@@ -5,15 +5,16 @@
   "main": "index.js",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "dev": "parcel index.hbs",
-    "build": "parcel build index.hbs"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "riatitova",
   "license": "ISC",
   "devDependencies": {
-    "@anikin/parcel-transformer-handlebars": "^1.0.9",
     "@parcel/transformer-sass": "^2.8.0",
+    "handlebars": "^4.7.7",
+    "parcel-transformer-hbs": "^1.0.4",
     "parcel": "^2.8.0"
   }
 }

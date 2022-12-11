@@ -7,6 +7,35 @@
     width: 25%;
     background: #fbfbfb;
   }
+  .link {
+    width: 100%;
+    margin: 21px 21px 21px -11px;
+    height: 12px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+    color: #999999;
+  }
+  .search {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    border-bottom: 1px solid#EAEAEA;
+    &__input {
+      width: 290px;
+      height: 32px;
+      background: #efefef;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      align-self: center;
+      text-align: center;
+    }
+  }
   .chats {
     &__chat {
       height: 70px;
@@ -21,16 +50,12 @@
     }
     &__name {
       font-family: 'Inter';
-      font-style: normal;
-      font-weight: 600;
       font-size: 13px;
       line-height: 13px;
       color: #1e1e1e;
     }
     &__message {
       font-family: 'Inter';
-      font-style: normal;
-      font-weight: 500;
       font-size: 12px;
       line-height: 15px;
       color: #999999;
@@ -46,8 +71,6 @@
     &__time {
       width: 10%;
       font-family: 'Inter';
-      font-style: normal;
-      font-weight: 500;
       font-size: 9px;
       line-height: 13px;
       text-align: right;
@@ -65,8 +88,6 @@
       width: 257px;
       height: 12px;
       font-family: 'Inter';
-      font-style: normal;
-      font-weight: 500;
       font-size: 12px;
       line-height: 12px;
       text-align: center;

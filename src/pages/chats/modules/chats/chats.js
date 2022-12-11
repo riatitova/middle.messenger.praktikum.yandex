@@ -62,4 +62,4 @@ const chats = {
 
 export const renderChats = () => {
   return tmpl(chats);
-}
+};

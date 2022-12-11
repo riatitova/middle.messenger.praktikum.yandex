@@ -1,0 +1,26 @@
+<div class='user-settings-page'>
+  <section class='back-section'>
+    <span class='back-section__icon'></span>
+  </section>
+  <section class='user-settings'>
+    <span class='user-settings__avatar'></span>
+    <h2 class='user-settings__name'>Ivan</h2>
+    <div class='user-settings__settings'>
+      {{#each settings}}
+        <div class='setting'>
+          <span class='setting__key'>{{key}}</span>
+          <span class='setting__value'>{{value}}</span>
+        </div>
+      {{/each}}
+    </div>
+    <div class='user-settings__change-data'>
+      <button class='user-settings__change-data-btn'>Change Data</button>
+    </div>
+    <div class='user-settings__change-password'>
+      <button class='user-settings__change-password-btn'>Change Password</button>
+    </div>
+    <div class='user-settings__logout'>
+      <button class='user-settings__logout-btn'>Log out</button>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,43 @@
+@use '../../../../styles.scss';
+
+.page404 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter';
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  &__header {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 40px;
+    color: styles.$text-dark;
+  }
+  &__title {
+    width: 180px;
+    height: 20px;
+    margin-bottom: 69px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: styles.$text-dark;
+  }
+  &__link {
+    width: 78px;
+    height: 11px;
+    font-size: 11px;
+    text-decoration: none;
+    line-height: 11px;
+    text-align: center;
+    color: styles.$blue-btn;
+  }
+}

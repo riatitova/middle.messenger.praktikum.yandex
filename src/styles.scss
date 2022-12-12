@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+$light-grey: #fbfbfb;
+$border-grey: #eaeaea;
+$grey-background: #efefef;
+$text-grey: #999999;
+$text-dark: #1e1e1e;
+$blue-btn: #3369f3;
+$text-red: #FF0000;
+$box-shadow: #00000024;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root,
+body,
+html {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+<div class='chats-page'>
+  <section class='chats-section'>
+    <div class='search'>
+      <a href='#' class='link'>My account</a>
+      <input
+        type='text'
+        name='search'
+        id='chat-search'
+        class='search__input'
+        placeholder='Search'
+      />
+    </div>
+    <div class='chats'>
+      {{#each chats}}
+        <div class='chats__chat'>
+          <span class='chats__avatar'></span>
+          <div class='chats__main'>
+            <h3 class='chats__name'>{{name}}</h3>
+            <p class='chats__message'>{{message}}</p>
+          </div>
+          <span class='chats__time'>{{time}}</span>
+        </div>
+      {{/each}}
+    </div>
+  </section>
+  <div class='choosen-chat'> <p class='choosen-chat_empty'>Choose chat to send message</p> </div>
+</div>

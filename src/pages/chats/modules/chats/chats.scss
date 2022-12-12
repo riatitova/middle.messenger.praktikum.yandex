@@ -1,0 +1,99 @@
+@use '../../../../styles.scss';
+
+.chats-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  .chats-section {
+    height: 100%;
+    width: 25%;
+    background: styles.$light-grey;
+  }
+  .link {
+    width: 100%;
+    margin: 21px 21px 21px -11px;
+    height: 12px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+    color: styles.$text-grey;
+  }
+  .search {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    border-bottom: 1px solid styles.$border-grey;
+    &__input {
+      width: 290px;
+      height: 32px;
+      background: styles.$grey-background;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      align-self: center;
+      text-align: center;
+    }
+  }
+  .chats {
+    &__chat {
+      height: 70px;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid styles.$border-grey;
+    }
+    &__main {
+      width: 70%;
+    }
+    &__name {
+      font-family: 'Inter';
+      font-size: 13px;
+      line-height: 13px;
+      color: styles.$text-dark;
+    }
+    &__message {
+      font-family: 'Inter';
+      font-size: 12px;
+      line-height: 15px;
+      color: styles.$text-grey;
+    }
+    &__avatar {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      background-image: url('../../../../assets/avatar.svg');
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    &__time {
+      width: 10%;
+      font-family: 'Inter';
+      font-size: 9px;
+      line-height: 13px;
+      text-align: right;
+      color: styles.$text-grey;
+    }
+  }
+  .choosen-chat {
+    width: 75%;
+    height: 100%;
+    position: relative;
+    &_empty {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 257px;
+      height: 12px;
+      font-family: 'Inter';
+      font-size: 12px;
+      line-height: 12px;
+      text-align: center;
+      color: styles.$text-grey;
+    }
+  }
+}

@@ -1,3 +1,5 @@
+@use '../../../../styles.scss';
+
 .page500 {
   width: 100%;
   height: 100%;
@@ -18,7 +20,7 @@
     margin-bottom: 20px;
     font-size: 40px;
     line-height: 40px;
-    color: #1e1e1e;
+    color: styles.$text-dark;
   }
   &__title {
     width: 180px;
@@ -27,7 +29,7 @@
     font-size: 20px;
     line-height: 20px;
     text-align: center;
-    color: #1e1e1e;
+    color: styles.$text-dark;
   }
   &__link {
     width: 78px;
@@ -36,6 +38,6 @@
     text-decoration: none;
     line-height: 11px;
     text-align: center;
-    color: #3369f3;
+    color: styles.$blue-btn;
   }
 }

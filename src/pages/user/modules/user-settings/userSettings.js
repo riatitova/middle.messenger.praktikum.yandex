@@ -4,27 +4,27 @@ import './userSettings.scss';
 const settings = {
   settings: [
     {
-      key: 'Mail',
+      key: 'email',
       value: 'pochta@yandex.ru',
     },
     {
-      key: 'Login',
+      key: 'login',
       value: 'ivanivanov',
     },
     {
-      key: 'Name',
+      key: 'first_name',
       value: 'Ivan',
     },
     {
-      key: 'Last name',
+      key: 'second_name',
       value: 'Ivanov',
     },
     {
-      key: 'Nickname',
+      key: 'display_name',
       value: 'Ivan',
     },
     {
-      key: 'Phone number',
+      key: 'phone',
       value: '+7 (909) 967 30 30',
     },
   ],

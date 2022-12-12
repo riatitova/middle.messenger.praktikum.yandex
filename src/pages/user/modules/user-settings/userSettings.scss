@@ -1,3 +1,5 @@
+@use '../../../../styles.scss';
+
 .user-settings-page {
   width: 100%;
   height: 100%;
@@ -6,7 +8,7 @@
   .back-section {
     width: 64px;
     height: 100%;
-    background: #fbfbfb;
+    background: styles.$light-grey;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +41,7 @@
       margin: 21px 0;
       font-size: 16px;
       line-height: 16px;
-      color: #1e1e1e;
+      color: styles.$text-dark;
     }
     &__settings {
       width: 510px;
@@ -51,23 +53,23 @@
         justify-content: space-between;
         font-size: 13px;
         line-height: 13px;
-        border-bottom: 1px solid #eaeaea;
+        border-bottom: 1px solid styles.$border-grey;
         &__key {
-          color: #1e1e1e;
+          color: styles.$text-dark;
         }
         &__value {
-          color: #999999;
+          color: styles.$text-grey;
         }
       }
     }
     &__change-data,
     &__change-password {
-      border-bottom: 1px solid #eaeaea;
+      border-bottom: 1px solid styles.$border-grey;
       &-btn {
         width: 510px;
         height: 33px;
         text-align: left;
-        color: #3369f3;
+        color: styles.$blue-btn;
         outline: none;
         border: none;
         background: none;
@@ -77,7 +79,7 @@
         width: 510px;
         height: 33px;
         text-align: left;
-        color: #FF0000;
+        color: styles.$text-red;
         outline: none;
         border: none;
         background: none;

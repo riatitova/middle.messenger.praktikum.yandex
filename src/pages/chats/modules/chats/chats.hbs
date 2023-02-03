@@ -23,5 +23,17 @@
       {{/each}}
     </div>
   </section>
-  <div class='choosen-chat'> <p class='choosen-chat_empty'>Choose chat to send message</p> </div>
+  <div class='choosen-chat'>
+    <p class='choosen-chat_empty'>Choose chat to send message</p>
+    <div class='choosen-chat_message'>
+      <input
+        type='text'
+        name='message'
+        id='message'
+        placeholder='Type a message'
+        class='choosen-chat_message-input'
+      />
+      <button type="button" class='choosen-chat_message-button'>Send</button>
+    </div>
+  </div>
 </div>

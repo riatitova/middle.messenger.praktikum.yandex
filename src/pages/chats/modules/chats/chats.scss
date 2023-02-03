@@ -95,5 +95,29 @@
       text-align: center;
       color: styles.$text-grey;
     }
+    &_message {
+      position: absolute;
+      left: 365px;
+      bottom: 50px;
+      &-input {
+        padding-left: 20px;
+        width: 849px;
+        height: 32px;
+        background: #efefef;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+      }
+      &-button {
+        height: 32px;
+        width: 100px;
+        color: white;
+        background: #3369f3;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+      }
+    }
   }
 }
